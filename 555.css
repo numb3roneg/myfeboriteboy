@@ -1,0 +1,62 @@
+/* ตั้งค่าพื้นหลังของเว็บเป็นสีชมพูอ่อน */
+body {
+    background-color: #f8c8d3; /* สีชมพูอ่อน */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ตั้งค่า container สำหรับเนื้อหาทั้งหมด */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ตั้งค่า ขนาดและสีของข้อความใน <h1> */
+h1 {
+    font-size: 36px;
+    color: #e91e63; /* สีชมพูสด */
+    margin-bottom: 20px;
+}
+
+/* ตั้งค่า ขนาดและสีของข้อความใน <p> */
+#message {
+    font-size: 24px;
+    color: #ff4081; /* สีชมพู */
+    margin-bottom: 20px;
+}
+
+/* ตั้งขนาดของ GIF */
+.heart img {
+    width: 300px; /* ปรับขนาดความกว้างของ GIF */
+    height: auto; /* คงอัตราส่วนของ GIF */
+    margin-top: 15px;
+}
+
+/* เพิ่มระยะห่างจากคลิป */
+.heart {
+    margin-top: 10px;
+}
+
+/* ปรับขนาดของปุ่ม */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #e91e63; /* สีชมพูสด */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d81b60; /* สีชมพูเข้มเมื่อ hover */
+}
